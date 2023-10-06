@@ -1,0 +1,67 @@
+/* BookingForm.css */
+
+.booking-form-container {
+  max-width: 1000%; /* Increase the max-width as needed */
+  margin: 0 auto;
+  padding: 600px; /* Increase the padding to add more space around the form */
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a box shadow for depth */
+}
+
+.form-group {
+  margin-bottom: 30px; /* Increase the margin between form groups */
+}
+
+label {
+  font-size: 16px; /* Increase the font size for labels */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select {
+  width: 100%;
+  padding: 15px; /* Increase the padding for input elements */
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px; /* Increase the font size for input elements */
+}
+
+.submit-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 15px 30px; /* Increase the padding for the submit button */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  font-size: 18px; /* Increase the font size for the submit button */
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+@media (max-width: 768px) {
+  .container {
+    /* CSS rules for smaller screens */
+    padding: 10px; /* Adjust padding as needed */
+  }
+
+  .img-fluid {
+    /* CSS rules for the image on smaller screens */
+    width: 80%; /* Adjust the image width as needed */
+    margin-bottom: 20px; /* Add margin to separate image and form */
+  }
+
+  .card {
+    /* CSS rules for the card on smaller screens */
+    margin-top: 20px; /* Add margin to separate the card from the image */
+  }
+
+  .card-title {
+    /* CSS rules for the card title on smaller screens */
+    font-size: 24px; /* Adjust the font size as needed */
+  }
+}

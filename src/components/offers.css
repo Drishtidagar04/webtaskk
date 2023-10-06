@@ -1,0 +1,59 @@
+/* Offers.css */
+.offers-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .offers-image {
+    max-width: 50%; /* Adjust the image width as needed */
+    margin-right: 20px; /* Add margin to separate image and text */
+  }
+  
+  .offers-text {
+    flex: 1; /* Allow text to take available space */
+  }
+  @media (max-width: 768px) {
+    .about-container {
+      /* CSS rules for smaller screens */
+      padding: 10px; /* Adjust padding as needed */
+    }
+  
+    .about-p {
+      /* CSS rules for paragraph on smaller screens */
+      font-size: 16px; /* Adjust font size as needed */
+    }
+  
+    .about-item {
+      /* CSS rules for items on smaller screens */
+      text-align: center; /* Center-align the items */
+    }
+  
+    /* You can add more styles here for smaller screens as needed */
+
+ 
+    
+  /* Add styles for smaller screens (e.g., mobile devices) */
+  @media (max-width: 768px) {
+    .offers-container {
+      /* CSS rules for smaller screens */
+      flex-direction: column; /* Stack items vertically */
+      align-items: center; /* Center-align items horizontally */
+      padding: 10px; /* Adjust padding as needed */
+    }
+  
+    .offers-image {
+      /* CSS rules for the image on smaller screens */
+      width: 80%; /* Adjust the image width as needed */
+      margin-bottom: 20px; /* Add margin to separate image and text */
+    }
+  
+    .offers-text {
+      /* CSS rules for the text on smaller screens */
+      text-align: center; /* Center-align the text */
+    }
+  
+    /* You can add more styles here for smaller screens as needed */
+  }  
+}

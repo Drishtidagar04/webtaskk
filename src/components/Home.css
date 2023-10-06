@@ -1,0 +1,80 @@
+/* Home.css */
+
+  
+  /* Style the image itself */
+  .image img {
+    width: 100%;        /* Make the image width 100% of its container */
+    max-width: 400px;   /* Set a maximum width for larger screens */
+    height: auto;       /* Maintain the aspect ratio */
+    display: block;     /* Remove any extra spacing around the image */
+    margin: 0 auto;     /* Center the image horizontally */
+  }
+/* Home.css */
+/* Font for the heading */
+h1 {
+    font-family: 'Your-Heading-Font', sans-serif;
+    /* Replace 'Your-Heading-Font' with the desired font name or font stack */
+  }
+  
+  /* Font for the paragraph */
+  p {
+    font-family: 'Your-Paragraph-Font', sans-serif;
+    /* Replace 'Your-Paragraph-Font' with the desired font name or font stack */
+  }
+  footer {
+    width: 100%;
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 2px 0;
+    position: absolute; /* Position the footer absolutely */
+    bottom: 0;
+     /* Stick it to the bottom */
+    left: 0; }
+    footer ul li a {
+        font-size: 12px;
+    }
+    @media (max-width: 768px) {
+        @media (max-width: 768px) {
+            .container {
+              /* CSS rules for smaller screens */
+              padding: 10px; /* Adjust the padding as needed */
+            }
+          
+            .content {
+              /* CSS rules for content on smaller screens */
+              font-size: 16px; /* Adjust the font size as needed */
+            }
+          
+            .image {
+              /* CSS rules for images on smaller screens */
+              text-align: center; /* Center-align the image */
+            }
+
+
+
+    }
+      
+          .container {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+          }
+          
+          .content {
+            flex: 1;
+            
+        
+          }
+        .image {
+             
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px; 
+            text-align: center; 
+             
+             /* Add some top margin to the image */
+          }
+        
+    }
+    

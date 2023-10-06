@@ -1,0 +1,45 @@
+/* about.css*/
+
+.about-container {
+  display:flexbox;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px; /* Add padding to separate the content from the edges */
+}
+
+.about-item {
+  flex: 0 0 25%; /* Adjust the width based on your layout needs */
+  text-align: center;
+  margin: 10px; /* Add margin to space out the items */
+}
+
+
+
+.about-item p {
+  margin-top: 10px; /* Add space between the image and text */
+  font-weight: bold;
+  
+}
+
+
+.about-item img {
+  max-width: 80%;
+  height: auto;
+}
+@media (max-width: 768px) {
+  .about-container {
+    /* CSS rules for smaller screens */
+    padding: 10px; /* Adjust padding as needed */
+  }
+
+  .about-p {
+    /* CSS rules for paragraph on smaller screens */
+    font-size: 16px; /* Adjust font size as needed */
+  }
+
+  .about-item {
+    /* CSS rules for items on smaller screens */
+    text-align: center; /* Center-align the items */
+  }
+}
